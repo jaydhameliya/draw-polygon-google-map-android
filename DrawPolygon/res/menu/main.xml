@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.googlemap.MainActivity" >
+
+    <item
+        android:id="@+id/action_ok"
+        android:title="@string/action_ok"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_mapdisplay"
+        android:orderInCategory="100"
+        android:title="@string/action_mapdisplay"
+        app:showAsAction="never"/>
+
+</menu>

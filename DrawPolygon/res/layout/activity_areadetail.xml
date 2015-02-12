@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- Area Name -->
+
+        <EditText
+            android:id="@+id/edt_area_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hl_area_name"
+            android:inputType="textCapWords" />
+
+        <!-- Address -->
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hl_address"
+            android:inputType="textMultiLine" />
+
+        <!-- Postal Code -->
+
+        <EditText
+            android:id="@+id/edt_postal_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hl_postal_code"
+            android:inputType="textPostalAddress" />
+    </LinearLayout>
+
+</RelativeLayout>
